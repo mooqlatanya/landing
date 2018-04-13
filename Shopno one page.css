@@ -1,0 +1,83 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.first_block {
+	background: rgba(239, 240, 242, 0.99);
+	height: 806px;
+}
+
+header {
+	margin:  80px;
+	display: inline-block;
+}
+
+.logo {
+	background-image: url(shopno.png);
+	background-repeat: no-repeat;
+	background-size: 85px 16px;
+	background-position: center;
+	width: 113px;
+    height: 40px;
+    border: 6px solid rgba(23, 15, 28, 1);
+   	display: inline-block;
+    margin-left: 150px;
+}
+
+.icon {
+	display: inline-block;
+	position: right;
+}
+
+.nav1, .nav2, .nav3 {
+	margin-left: 845px;
+	margin-right: 150px;
+	border-bottom: 4px rgba(0, 0, 0, 0.6);
+	border-top: 4px solid rgba(0, 0, 0, 0.6);
+	width: 30px;
+	height: 4px;
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 5px 10px 5px rgba(80, 80, 80, 0.15);
+	font-size: 45pt;
+	color: rgba(80, 80, 80, 255);
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 2.28px;
+	position:relative;
+	padding-bottom:50px;
+}
+
+span {
+	width: 255px 54px;
+	padding: 10px 15px;
+	background-color: rgba(118, 244, 234, 0.5);
+}
+
+.juice-glass {
+	margin-left: 1132px;
+}
+
+.juice-glass IMG { position: absolute; }
+	.cork-coaster { top: 0px; left: 0px; }
+	.glass { top: 0px; left: 0px; }
+
+button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 2.16px;
+	padding: 20px 48px;
+	margin: 0px 600px 100px 600px;
+ }
+
+.second_block {
+	background: rgba(248, 250, 250, 1);
+	height: 985px;
+}
